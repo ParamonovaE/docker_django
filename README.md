@@ -1,3 +1,11 @@
+# Команды для запуска
+1. docker build -t my-django-app .
+2. docker run -d -p 8000:8000 --env-file .env my-django-app
+3. http://localhost:8000
+
+
+
+
 # Склады и товары
 
 ## Техническая задача: реализовать CRUD-логику для продуктов и складов, используя Django Rest Framework.
